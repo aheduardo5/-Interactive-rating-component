@@ -8,6 +8,7 @@
   --MediumGrey: hsl(216, 12%, 24%);
   --DarkBlue: hsl(213, 19%, 18%);
   --VeryDarkBlue: hsl(216, 12%, 8%);
+  --VeryDarkBlueCard: hsl(214, 9%, 15%);
 }
 * {
   margin: 0;
@@ -22,6 +23,7 @@ body {
 .rating-state,
 .thankyou-state {
   background-color: var(--DarkBlue);
+  background-image: linear-gradient(var(--DarkBlue), var(--VeryDarkBlueCard));
   width: 327px;
   height: 364px;
   border-radius: 16px;
